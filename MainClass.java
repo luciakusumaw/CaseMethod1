@@ -8,10 +8,10 @@ public class MainClass {
         students[2] = new Student("22003", "Image", "Business Information System");
 
         Book[] books = new Book[4];
-        books[0] = new Book("B001", "Algoritma", 2020);
-        books[1] = new Book("B002", "Basis Data", 2019);
-        books[2] = new Book("B003", "Pemrograman", 2021);
-        books[3] = new Book("B004", "Fisika", 2024);
+        books[0] = new Book("B001", "Algorithm", 2020);
+        books[1] = new Book("B002", "Database", 2019);
+        books[2] = new Book("B003", "Programming", 2021);
+        books[3] = new Book("B004", "Physics", 2024);
 
         Loan[] loans = new Loan[5];
         loans[0] = new Loan(students[0], books[0], 7);  
